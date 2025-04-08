@@ -21,14 +21,14 @@ nav ul li {
     margin: 0 15px;
 }
 
-li:holver{
-    color: black;
+nav button {
+    color: white;
     background-color: white;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+nav button:hover{
+    color: black;
+    background-color: white;
 }
 
 section {
@@ -50,4 +50,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.fotoautor img {
+    border: 1px solid black;
+    max-width: 55px;
+    max-width: 55px;
 }
