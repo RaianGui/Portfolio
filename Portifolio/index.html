@@ -8,14 +8,16 @@
 </head>
 <body>
     <header>
-       <div class="fotoautor"><img src="IMG_20200401_133904_206.jpg" alt="Foto do autor"></div> 
+        <div class="fotoautor">
+            <img src="IMG_20200401_133904_206.jpg" alt="Foto do autor">
+        </div> 
         <h1>Raian Guilherme Barbosa</h1>
         <nav>
             <ul>
-                <li><button><a href="#sobre">Sobre</a></li></button>
-                <li><button><a href="#projetos">Projetos</a></li></button>
-                <li><button><a href="#contato">Contato</a></li></button>
-                </ul>           
+                <li><a href="#sobre"><button>Sobre</button></a></li>
+                <li><a href="#projetos"><button>Projetos</button></a></li>
+                <li><a href="#contato"><button>Contato</button></a></li>
+            </ul>           
         </nav>
     </header>
 
@@ -28,14 +30,29 @@
 
     <section id="projetos">
         <h2>Meus Projetos</h2>
+
         <div class="projeto">
             <h3>Projeto 1</h3>
-            <p>https://github.com/RaianGui/TiroAoAlvo.git</p>
+            <a href="https://github.com/RaianGui/TiroAoAlvo.git" target="_blank">
+                <img src="projeto1.jpg" alt="Imagem do Projeto 1">
+            </a>
         </div>
+
         <div class="projeto">
             <h3>Projeto 2</h3>
-            <p>https://github.com/adinaifrn11/TrabalhoFinal.git</p>
+            <a href="https://github.com/adinaifrn11/TrabalhoFinal.git" target="_blank">
+                <img src="projeto2.jpg" alt="Imagem do Projeto 2">
+            </a>
         </div>
+
+        <div class="projeto">
+            <h3>Projeto 3 (Vídeo)</h3>
+            <video controls width="100%">
+                <source src="projeto3.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo HTML5.
+            </video>
+        </div>
+
     </section>
 
     <section id="contato">

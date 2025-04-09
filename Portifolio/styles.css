@@ -21,14 +21,16 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav button {
-    color: white;
-    background-color: white;
-}
-
-nav button:hover{
+nav a button {
     color: black;
     background-color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+nav a button:hover {
+    background-color: #ddd;
 }
 
 section {
@@ -39,7 +41,29 @@ section {
 .projeto {
     border: 1px solid #ccc;
     padding: 10px;
-    margin: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.projeto img:hover {
+    transform: scale(1.03);
+}
+
+.projeto video {
+    max-width: 100%;
+    border: 1px solid #999;
+    border-radius: 8px;
 }
 
 footer {
@@ -55,5 +79,5 @@ footer {
 .fotoautor img {
     border: 1px solid black;
     max-width: 55px;
-    max-width: 55px;
+    border-radius: 50%;
 }
